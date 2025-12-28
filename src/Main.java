@@ -19,8 +19,14 @@ public class Main {
         //Turn the mustang.
         mustang.turn();
 
+        Car defaultCar = new Car();
+
+        Car xC60 = new Car("Volvo", "xC60", "Gold");
+
         //print the cars using toString() in the Car class.
         System.out.println(colorado);
         System.out.println(mustang);
+        System.out.println(defaultCar);
+        System.out.println(xC60);
     }
 }
